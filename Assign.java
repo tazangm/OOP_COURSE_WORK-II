@@ -12,7 +12,7 @@ int num2=scn.nextInt();
 int sum = num +num2;
 System.out.print("sum of numbers;"+sum);*/
 
-System.out.print("Enter a mark");
+System.out.print("marks scored");
 Scanner k=new Scanner(System.in);
 
   int m= k.nextInt();
@@ -53,7 +53,7 @@ Scanner k=new Scanner(System.in);
 	       System.out.print("Student has:F");
 	return;
 	}
-	 else System.out.print("No student");
+	 else System.out.print("MISSED");
 	 return;
 }
 }
